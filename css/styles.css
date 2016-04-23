@@ -1,0 +1,28 @@
+.fold-toggle {
+  position: absolute;
+  left: 10px;
+  z-index: 100;
+  padding: 0;
+  background: #F7F7F7;
+  border-radius: 4px;
+  color: #0067A3;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 16px;
+  height: 19px;
+  width: 19px;
+  text-align: center;
+  cursor: pointer;
+}
+
+  .fold-toggle:hover {
+    color: #61BD4F;
+  }
+
+#board .list-header {
+  padding-left: 40px;
+}
+
+.mtb-fold .list-cards {
+  display: none;
+}
